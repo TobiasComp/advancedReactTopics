@@ -164,7 +164,7 @@ function StudentNested(props) {
   return (
     <div>
       <Link to={`${match.url}/` + updatedSelectedStudent}>
-        Link to the first student
+        Link to the selected student
       </Link>
       <Switch>
         <Route path={`${match.path}/:studentId`}>

@@ -1,0 +1,13 @@
+.navbar-container {
+  background-color: lightskyblue;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.total-num-students {
+  justify-content: right;
+  font-size: 20px;
+}
